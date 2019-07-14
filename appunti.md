@@ -47,10 +47,56 @@ Segue che:
   - $\overrightarrow{v}\times\overrightarrow{w}< 0\iff \alpha$ è **meggiore** di 90°
   - $\overrightarrow{v}\times\overrightarrow{w}= 0\iff \alpha$ **retto** (vettori **perpendicolari**) oppure uno dei due è il vettore **nullo**
 
+**Angolo tra due vettori**
+
+Per calcolare l'angolo tra due vettori si deve trovare l'angolo tra **ogni** vettore e l'asse delle $x$, dopo si fa la differenza tra gli angoli.
+Angolo con l'asse delle $x$: $\Theta_{v_1}=\arcctg(\frac{j}{i})$
+
+Esempio:
+$\overrightarrow{v_1} = 15\overrightarrow{i} - 8\overrightarrow{j}$
+$\overrightarrow{v_2} = 8\overrightarrow{i} - 15\overrightarrow{j}$
+
+
+Angolo tra $v_1$ e $v_2$ con l'asse delle $x$:
+
+$\Theta_{v_1}=\arcctg(\frac{-8}{15})$
+$\Theta_{v_2}=\arcctg(\frac{-15}{8})$
+
+Angolo tra $v_1$ e $v_2$: $\Theta_{v_1}-\Theta_{v_2}$
+
+**NOTA**: $\frac{\pi}{2}$ è l'angolo di 90°.
+
+#### Calcolo vettori
+
+Dati due punti $A=(x,y)$ e $B=(x,y)$. Per determinare il **vettore** $\overrightarrow{r}_{AB}$ si fa la somma delle differenze dei componenti **arrivo - partenza**:
+
+$\overrightarrow{r}_{AB} = (x_B-x_A)\overrightarrow{i} + (y_B-y_A)\overrightarrow{j}$
+
+
 #### DIFFERENZA
+
+Somma della differenza tra le componenti. Esempio:
+
+Siano dati:
+$\overrightarrow{a} = 0\overrightarrow{i}-3\overrightarrow{j}$
+$\overrightarrow{b} = 4\overrightarrow{i}+0\overrightarrow{j}$
+
+La loro differenza:
+$\overrightarrow{a}-\overrightarrow{b} = (0-4)\overrightarrow{i}+(-3+0)\overrightarrow{j} = -4\overrightarrow{i}-3\overrightarrow{j}$
+
 
 \pagebreak
 
 #ELETTROMAGNETISMO
 
 ## CARICHE
+
+#### CONDENSATORE
+
+- **Circuito (interruttore) aperto** $\rArr$ **non passa corrente**
+- **Circuito (interruttore) chiuso** $\rArr$ **passa corrente**
+
+- **Condensatore scarico** + **circuito chiuso** (interruttore chiuso, quindi passa corrente) $\rArr$ passa corrente attraverso il Condensatore **finché** esso non sarà **carico**.
+- **Condensatore carico** $\rArr$ **non passa** corrente (si comporta come un circuito aperto)
+
+#### INDUTTORE
