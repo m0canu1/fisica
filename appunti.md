@@ -95,6 +95,14 @@ Corrente Elettrica è la carica totale che passa per un filo in un periodo di te
 
 Per la **legge della conservazione** della carica il voltaggio totale erogato dal sistema è uguale alla somma di tutti i cali del circuito.??
 
+Delle resistenze in serie vengono attraversate dalla stessa intesità di corrente ($A$, ampere)
+
+Tensioni ai capi in $V$ (volt)
+
+Tensioni su due resistori in parallelo sono medesime
+
+Una $f.e.m.$ di $x\ V$ (volt) vuol dire che ai capi, ha una differenza di potenziale di $x$
+
 **Conservazione dell'energia**
 
 Con resistenze maggiori si ha un calo maggiore di voltaggio (del potenziale)
@@ -131,9 +139,10 @@ Ha la capacità di immagazzinare energia elettrica tra le sue armature
 **STAZIONAREITÀ**:
 
 - **Condensatore** $\rArr$ 
+   - **Carico** non passa corrente
 - **Induttore** $\rArr$ **corto circuito** / **circuito chiuso**
 
 **NON STAZIONAREITÀ**:
 
-- **Condensatore** $\rArr$ 
+- **Condensatore** $\rArr$
 - **Induttore** $\rArr$ **generatore di corrente**
