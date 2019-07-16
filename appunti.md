@@ -91,7 +91,30 @@ $\overrightarrow{a}-\overrightarrow{b} = (0-4)\overrightarrow{i}+(-3+0)\overrigh
 
 ## CARICHE
 
+Corrente Elettrica è la carica totale che passa per un filo in un periodo di tempo.
+
+Per la **legge della conservazione** della carica il voltaggio totale erogato dal sistema è uguale alla somma di tutti i cali del circuito.??
+
+**Conservazione dell'energia**
+
+Con resistenze maggiori si ha un calo maggiore di voltaggio (del potenziale)
+Con resistenze minori si ha un calo minore
+
+#### GENERATORE
+
+Un generatore di tensione, è caratterizzato da una **differenza di potenziale** ai suoi capi denominata **forza elettromotrice** e si tratta di una tensione elettrica misurata in $V$ (volt).
+
+Il generatore di tensione, sarà in grado di erogare una corrente $I$ solo una volta che il circuito sarà chiuso su di un carico (resistenza) $R$. 
+Se il generatore rimane flottante **non** vi sarà alcuna corrente circolante.
+
+- $f.e.m.$ in $V$ (volt): forze elettro-motrici (*tensioni* ai capi dei **generatori**)
+- $c.d.t.$ in $V$ (volt): cadute di tensione (*tensioni* ai capi delle **resistenze**)
+
+**TENSIONE** = $d.d.p.$ differenza di potenziale (elettrico)
+
 #### CONDENSATORE
+
+Ha la capacità di immagazzinare energia elettrica tra le sue armature
 
 - **Circuito (interruttore) aperto** $\rArr$ **non passa corrente**
 - **Circuito (interruttore) chiuso** $\rArr$ **passa corrente**
@@ -100,3 +123,17 @@ $\overrightarrow{a}-\overrightarrow{b} = (0-4)\overrightarrow{i}+(-3+0)\overrigh
 - **Condensatore carico** $\rArr$ **non passa** corrente (si comporta come un circuito aperto)
 
 #### INDUTTORE
+
+è il **duale** del Condensatore.
+
+**Corto circuito** $=$ **Circuito chiuso** $\rArr$ **resistenza prossima allo 0** quindi passa corrente.
+
+**STAZIONAREITÀ**:
+
+- **Condensatore** $\rArr$ 
+- **Induttore** $\rArr$ **corto circuito** / **circuito chiuso**
+
+**NON STAZIONAREITÀ**:
+
+- **Condensatore** $\rArr$ 
+- **Induttore** $\rArr$ **generatore di corrente**
