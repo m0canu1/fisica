@@ -5,3 +5,5 @@
 *.aux
 *.fdb_latexmk
 Libro (solo parti utili).pdf
+__latexindent_temp.tex
+appunti.tex.save
