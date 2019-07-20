@@ -2,3 +2,6 @@
 *.log
 *.html
 *.fls
+*.aux
+*.fdb_latexmk
+Libro (solo parti utili).pdf
