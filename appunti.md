@@ -73,6 +73,13 @@ Dati due punti $A=(x,y)$ e $B=(x,y)$. Per determinare il **vettore** $\overright
 $\overrightarrow{r}_{AB} = (x_B-x_A)\overrightarrow{i} + (y_B-y_A)\overrightarrow{j}$
 
 
+#### VERSORI
+
+Il versore $r$ si trova dividendo il vettore $\overrightarrow{r}$ per il suo modulo $r$:
+
+$r=\frac{\overrightarrow{r}}{r}$
+
+
 #### DIFFERENZA
 
 Somma della differenza tra le componenti. Esempio:
@@ -87,7 +94,7 @@ $\overrightarrow{a}-\overrightarrow{b} = (0-4)\overrightarrow{i}+(-3+0)\overrigh
 
 \pagebreak
 
-#ELETTROMAGNETISMO
+# ELETTROMAGNETISMO
 
 ## CARICHE
 
@@ -95,11 +102,17 @@ Corrente Elettrica è la carica totale che passa per un filo in un periodo di te
 
 Per la **legge della conservazione** della carica il voltaggio totale erogato dal sistema è uguale alla somma di tutti i cali del circuito.??
 
-Delle resistenze in serie vengono attraversate dalla stessa intesità di corrente ($A$, ampere)
+- Delle resistenze in serie vengono attraversate dalla stessa **intesità** di corrente ($A$, ampere)
 
-Tensioni ai capi in $V$ (volt)
+- **Potenziale** è **in un punto** (per esempio all'inizio di un resistore).
+  **Differenza di potenziale** $=$ Potenziale in punto $A$ $-$ Potenziale in punto $B$
+- **Tensione** $=$ **differenza di potenziale** in $V$ (volt)
+  - $V=Ri$
+  - $i=\frac{V}{R}$
+  - $R=\frac{V}{iz}$
 
-Tensioni su due resistori in parallelo sono medesime
+- Tensioni su due resistori in parallelo sono medesime
+- La corrente che circola nei resistori è sempre la stessa, cambia la tensione tra un capo e un altro.
 
 Una $f.e.m.$ di $x\ V$ (volt) vuol dire che ai capi, ha una differenza di potenziale di $x$
 
@@ -112,6 +125,9 @@ Con resistenze minori si ha un calo minore
 
 Un generatore di tensione, è caratterizzato da una **differenza di potenziale** ai suoi capi denominata **forza elettromotrice** e si tratta di una tensione elettrica misurata in $V$ (volt).
 
+- Una f.e.m. di $10V$ vuol dire che la **differenza di potenziale** tra il polo positivo e il polo negativo è di $10V$. Che è anche la tensione erogata dal generatore.
+
+
 Il generatore di tensione, sarà in grado di erogare una corrente $I$ solo una volta che il circuito sarà chiuso su di un carico (resistenza) $R$. 
 Se il generatore rimane flottante **non** vi sarà alcuna corrente circolante.
 
@@ -119,6 +135,37 @@ Se il generatore rimane flottante **non** vi sarà alcuna corrente circolante.
 - $c.d.t.$ in $V$ (volt): cadute di tensione (*tensioni* ai capi delle **resistenze**)
 
 **TENSIONE** = $d.d.p.$ differenza di potenziale (elettrico)
+
+#### RESISTORI IN SERIE
+
+![Circui51](assets/Circu22.gif)
+
+
+E' importante infine riassumere ciò che caratterizza un circuito di **resistori collegati in serie**:    
+
+  1. nei singoli resistori e nel generatore stesso circola la medesima corrente (es. $2A$, rimane uguale per tutti)
+  2. la somma delle cadute di potenziale ai capi dei resistori eguaglia la tensione del generatore (la caduta di potenziale ai capi dei resistori è **diversa** per ciascun resistore)
+  3. la resistenza equivalente (totale) è data dalla somma delle resistenze
+
+#### RESISTORI IN PARALLELO
+
+![Circui51](assets/Circui51.gif)
+
+- **Ai capi ($A$ e $B$) dei due resistori vi è la medesima tensione** che è quella del generatore. Questo fatto caratterizza i resistori collegati in parallelo.
+
+- Dentro i due resistori circoleranno correnti in generali **diverse** la cui somma, a causa del principio di conservazione della carica, uguaglierà la corrente complessiva che passa nel generatore.
+
+Avremo: 
+
+![Circui51](assets/Circui54.gif)
+
+Le due **correnti** sono immediatamente **calcolabili**:
+- $i_1=\frac{V}{R_1}$
+- $i_2=\frac{V}{R_2}$
+ 
+essendo la **tensione** ai **capi** dei due **resistori** la **stessa**, ovvero la **tensione** $V$ del **generatore**.
+
+La corrente $i$ che attraversa il circuito si trova tenendo conto di tutte le resistenze. 
 
 #### CONDENSATORE
 
@@ -138,11 +185,34 @@ Ha la capacità di immagazzinare energia elettrica tra le sue armature
 
 **STAZIONAREITÀ**:
 
-- **Condensatore** $\rArr$ 
+- **Condensatore** 
    - **Carico** non passa corrente
 - **Induttore** $\rArr$ **corto circuito** / **circuito chiuso**
 
 **NON STAZIONAREITÀ**:
 
-- **Condensatore** $\rArr$
-- **Induttore** $\rArr$ **generatore di corrente**
+- **Condensatore** 
+  - in **scarica** passa corrente (diventa un generatore)
+  - in **carica** passa corrente
+  - In **parallelo** con Resistore: resistore si **annulla**
+- **Induttore** $\rArr$  **non passa corrente** (circuito aperto) 
+
+In **parallelo** con Resistore:
+
+
+
+### Esercizio 2
+
+- **Calcolo potenziale elettrico in un punto**:
+  Il potenziale elettrico in un punto è dato dalla somma dei potenziali (di altri punti) che agiscono su quel punto.
+  - 1 punto: $k_e\frac{q}{r}$
+  - 2 punti (somma): $k_e\frac{q_1}{r_1}+k_e\frac{q_2}{r_2}$
+- **Calcolo campo elettrico** in un punto o **forza nulla** in un punto:
+  Il campo elettrico in un punto è dato dalla somma dei campi elettrici (di altri punti) in quel punto.
+  - 1 punto: $k_e\frac{Q}{|r_1-r_2|^2}$
+  - 2 punti: $k_e\frac{Q_1}{|r_1-r_2|^2}+k_e\frac{Q_2}{|r_2-r_3|^2}$
+  
+  Se **la forza è nulla** allora i campi elettrici che agiscono in quel punto si annullano, quindi la loro somma è uguale a $0$
+- calcolo del campo magnetico in un punto
+- forza totale su una carica che si muove con una velocità
+- calcolo del campo elettrico generato 
