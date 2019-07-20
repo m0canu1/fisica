@@ -24,8 +24,9 @@ Il \textbf{modulo} di
 
 Dati il vettore $\overrightarrow{v}=(x,y)$ ed il numero reale $\lambda$, il vettore $\lambda\overrightarrow{v}$ ha per componenti quelle del del vettore $\overrightarrow{v}$ moltiplicate per $\lambda$:
 
-$\lambda\overrightarrow{v}=(\lambda x, \lambda y)$
-
+\begin{equation*}
+  \lambda\overrightarrow{v}=(\lambda x, \lambda y)
+\end{equation*}\\
 Esempio: sia $\overrightarrow{v}=(1,2)$, determinare $2\overrightarrow{v}$ e $-\overrightarrow{v}$.
 \begin{itemize}
   \item $2\overrightarrow{v} = (2\times1,2\times2)=(2,4)$
@@ -61,13 +62,13 @@ $=|\overrightarrow{v}|\times|\overrightarrow{w}|\times\cos(\Theta_2-\Theta_1) = 
   \item $\Theta_1$ è l'angolo del vettore $\overrightarrow{v}$
   \item $\Theta_2$ è l'angolo del vettore $\overrightarrow{w}$
 \end{itemize}
-
-
 Segue che:
-  - $\overrightarrow{v}\times\overrightarrow{w}> 0\iff \alpha$ è \textbf{minore} di 90
-  - $\overrightarrow{v}\times\overrightarrow{w}< 0\iff \alpha$ è \textbf{meggiore} di 90
-  - $\overrightarrow{v}\times\overrightarrow{w}= 0\iff \alpha$ \textbf{retto} (vettori \textbf{perpendicolari}) oppure uno dei due è il vettore \textbf{nullo}
-
+\begin{itemize}
+  \item $\overrightarrow{v}\times\overrightarrow{w}> 0\iff \alpha$ è \textbf{minore} di 90
+  \item $\overrightarrow{v}\times\overrightarrow{w}< 0\iff \alpha$ è \textbf{meggiore} di 90
+  \item $\overrightarrow{v}\times\overrightarrow{w}= 0\iff \alpha$ \textbf{retto} (vettori \textbf{perpendicolari}) oppure uno dei due è il vettore \textbf{nullo}
+\end{itemize}
+ 
 \textbf{Angolo tra due vettori}
 
 Per calcolare l'angolo tra due vettori si deve trovare l'angolo tra \textbf{ogni} vettore e l'asse delle $x$, dopo si fa la differenza tra gli angoli.
@@ -115,9 +116,40 @@ $\overrightarrow{a}-\overrightarrow{b} = (0-4)\overrightarrow{i}+(-3+0)\overrigh
 
 \pagebreak
 
-ELETTROMAGNETISMO
+\section{ELETTROMAGNETISMO}
+\subsection{Esercizi}
+\begin{itemize}
+  \item \textbf{Calcolo potenziale elettrico in un punto}:
+      \\Il potenziale elettrico in un punto è dato dalla somma dei potenziali (di altri punti) che agiscono su quel punto.
+      \begin{itemize}
+          \item 1 punto: $k_e\frac{q}{r}$
+          \item 2 punti (somma): $k_e\frac{q_1}{r_1}+k_e\frac{q_2}{r_2}$
+      \end{itemize}
+  
+  \item \textbf{Calcolo campo elettrico} in un punto (o Forza in un punto):\\
+  Il campo elettrico in un punto è dato dalla somma dei campi elettrici (di altri punti) in quel punto.
+      \begin{itemize}
+          \item 1 punto: $k_e\frac{Q}{|r_1-r_2|^2}$
+          \item 2 punti: $k_e\frac{Q_1}{|r_1-r_2|^2}+k_e\frac{Q_2}{|r_2-r_3|^2}$
+      \end{itemize}
+    
+      Se \textbf{la forza è nulla} allora i campi elettrici che agiscono in quel punto si annullano, quindi la loro somma è uguale a $0$
+  \item calcolo del campo magnetico in un punto
+  \item forza totale su una carica che si muove con una velocità
+  \item calcolo del campo elettrico generato 
+  
+  \end{itemize}
+\textbf{Energia potenziale $U$} viene trasformata in energia cinetica se il corpo viene lasciato libero.\\
+Mi indica l'energia cinetica potenziale che la massa può esprimere.\\
+Il lavoro di una forza conservativa è $-\Delta U$, con $U$ che è l'energia potenziale:
+\begin{equation*}
+  W_{conservativa}=-\Delta U_E=U_{iniziale}-U_{finale}
+\end{equation*}
+\begin{equation*}
+  U_E=\frac{q_1q_2}{k_e}\frac{1}{r}
+\end{equation*} carica che genera il campo $q_1$, carica che lo risente $q_2$, distanza che c'è tra le due cariche $\frac{1}{r}$
 
-CARICHE
+\subsection{CARICHE}
 
 Corrente Elettrica è la carica totale che passa per un filo in un periodo di tempo.
 
@@ -209,16 +241,13 @@ INDUTTORE
 
 è il \textbf{duale} del Condensatore.
 
-\textbf{Corto circuito} $=$ \textbf{Circuito chiuso} -> \textbf{resistenza prossima allo 0} quindi passa corrente.
-
+\textbf{Corto circuito} $=$ \textbf{Circuito chiuso} -> \textbf{resistenza prossima allo 0} quindi passa corrente.\\
 \textbf{STAZIONAREITÀ}:
 \begin{itemize}
-  \item \textbf{Condensatore carico} non passa corrente
-  \item \textbf{Induttore} è \textbf{corto circuito} / \textbf{circuito chiuso}
+  \item \textbf{Condensatore} non passa corrente
+  \item \textbf{Induttore} è \textbf{corto circuito} / \textbf{circuito chiuso} quindi passa corrente.
 \end{itemize}
-
 \textbf{NON STAZIONAREITÀ}:
-
 \begin{itemize}
   \item \textbf{Condensatore} 
   \begin{itemize}
@@ -230,30 +259,6 @@ INDUTTORE
 \end{itemize}
 
 
-In \textbf{parallelo} con Resistore:
-
-Esercizio 2
-\begin{itemize}
-\item \textbf{Calcolo potenziale elettrico in un punto}:
-    \\Il potenziale elettrico in un punto è dato dalla somma dei potenziali (di altri punti) che agiscono su quel punto.
-    \begin{itemize}
-        \item 1 punto: $k_e\frac{q}{r}$
-        \item 2 punti (somma): $k_e\frac{q_1}{r_1}+k_e\frac{q_2}{r_2}$
-    \end{itemize}
-
-\item \textbf{Calcolo campo elettrico} in un punto o \textbf{forza nulla} in un punto:
-    Il campo elettrico in un punto è dato dalla somma dei campi elettrici (di altri punti) in quel punto.
-    \begin{itemize}
-        \item 1 punto: $k_e\frac{Q}{|r_1-r_2|^2}$
-        \item 2 punti: $k_e\frac{Q_1}{|r_1-r_2|^2}+k_e\frac{Q_2}{|r_2-r_3|^2}$
-    \end{itemize}
-  
-    Se \textbf{la forza è nulla} allora i campi elettrici che agiscono in quel punto si annullano, quindi la loro somma è uguale a $0$
-\item calcolo del campo magnetico in un punto
-\item forza totale su una carica che si muove con una velocità
-\item calcolo del campo elettrico generato 
-
-\end{itemize}
 
 \begin{equation*}
   1 + 2 = 3 +++
