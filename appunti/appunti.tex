@@ -110,10 +110,10 @@ Dati due punti $A=(x,y)$ e $B=(x,y)$. Per determinare il \textbf{vettore} $\over
 
 \subsection*{Versori}
 
-Il versore $r$ si trova dividendo il vettore $\overrightarrow{r}$ per il suo modulo $r$:
+Il versore $r$ si trova dividendo il vettore $\overrightarrow{r}$ per il suo modulo $|r|$:
 
 \begin{equation*}
-  r=\frac{\overrightarrow{r}}{r}
+  r=\frac{\overrightarrow{r}}{|r|}
 \end{equation*}
 
 
@@ -134,7 +134,7 @@ La loro differenza:
 
 \section{ELETTROMAGNETISMO}
 \subsection{Esercizi}
-\begin{itemize}
+\begin{enumerate}
   \item \textbf{Calcolo potenziale elettrico in un punto}:
       \\Il potenziale elettrico in un punto è dato dalla somma dei potenziali (di altri punti) che agiscono su quel punto.
       \begin{itemize}
@@ -150,11 +150,28 @@ La loro differenza:
       \end{itemize}
     
       Se \textbf{la forza è nulla} allora i campi elettrici che agiscono in quel punto si annullano, quindi la loro somma è uguale a $0$
+  \item \textbf{Forza} che agisce su una carica $q$ che si muove con velocità $\overrightarrow{v}$:\\
+  Si usa la Forza di Lorentz:
+  \begin{equation*}
+    \overrightarrow{F}=q_0\overrightarrow{v}\times\overrightarrow{B}
+  \end{equation*}
   \item calcolo del campo magnetico in un punto
   \item forza totale su una carica che si muove con una velocità
   \item calcolo del campo elettrico generato 
-  
+  \item \textbf{Modulo della velocità} di una particella:
+  \begin{equation*}
+    V=\omega R
+  \end{equation*} con
+  \begin{equation*}
+    \omega=\frac{2\pi}{T}
+  \end{equation*} che è la \textbf{velocità angolare} in un giro completo di 360.
+  \\
+  \begin{itemize}
+    \item $V$ è il rapporto tra lo spazio percorso, $2\pi R$, e il tempo, $T$, impiegato a percorrere
+    questo spazio.
+    \item $T$ è il \textbf{periodo del moto}: l'intervallo di tempo necessario a svolgere un giro completo.  
   \end{itemize}
+\end{enumerate}
 \textbf{Energia potenziale $U$} viene trasformata in energia cinetica se il corpo viene lasciato libero.\\
 Mi indica l'energia cinetica potenziale che la massa può esprimere.\\
 Il lavoro di una forza conservativa è $-\Delta U$, con $U$ che è l'energia potenziale:
