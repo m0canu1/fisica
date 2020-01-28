@@ -1,0 +1,186 @@
+Versione finale del programma per l'A.A.2017/18 
+
+26.02.2018
+Introduzione al corso. Grandezze fisiche ed unita` di misura. Grandezze scalari e vettoriali.
+
+Introduzione al corso. Grandezze fisiche ed unita` di misura. Cifre significative. Grandezze scalari e vettoriali. Richiami sull'algebra dei vettori.
+27.02.2018
+Cinematica. Moto in una dimensione.
+
+Cinematica: vettori spostamento, velocita` media e velocita` istantanea, accelerazione media e accelerazione istantanea.
+    Moto in una dimensione: moto rettilineo uniforme ed uniformemente accelerato. 
+    Leggi orarie del moto. Esempi.
+
+01.03.2017/1
+Cinematica: moto nel piano.
+
+Moto nel piano: moto parabolico come composizione di due moti rettillinei; moto circolare uniforme. Accelerazione centripeta. Accelerazione centripeta e tangenziale nel caso di un moto generico
+
+01.03.2018/2
+Dinamica: le leggi di Newton.
+
+Le tre leggi di Newton.
+
+02.03.2018/1
+Dinamica: esempi di forze.
+
+Esempi di forze: forza tra due corpi a contatto, forza peso, reazione vincolare normale, forza di attrito statico.
+
+02.03.2018/2
+Elettrostatica: la legge di Coulomb.
+
+La legge di Coulomb per cariche puntiformi.
+Il principio di sovrapposizione.
+Esempi di calcolo della forza tra cariche elettriche puntiformi.
+
+06.03.2018
+Elettrostatica: il campo elettrico (statico).
+
+Campo elettrico. Definizione operativa. Campo elettrico e azione a distanza.
+
+Campo elettrico generato da una distribuzione di cariche puntiformi.
+Esempio: calcolo del campo elettrico generato da un dipolo elettrico sul piano mediano e lungo l'asse del dipolo
+.
+08.03.2018/1
+Elettrostatica: il campo elettrico (statico).
+
+Campo elettrico prodotto da una distribuzione continua di carica elettrica.
+Esempio: calcolo del campo elettrico prodotto da una distribuzione lineare ed uniforme di carica elettrica di lunghezza infinita.
+
+08.03.2018/2
+Elettrostatica: il teorema di Gauss.
+
+Linee di forza del campo elettrico.
+Definizione di flusso di un vettore.
+Il teorema di Gauss per una carica elettrica puntiforme.
+
+13.03.2018
+Elettrostatica: applicazioni del teorema di Gauss. 
+
+Uso del teorema di Gauss per il calcolo del campo elettrico.
+Distribuzione di carica a simmetria sferica: sfera uniformemente carica.
+Distribuzione di carica a simmetria assiale: distribuzione lineare ed uniforme di carica.
+Distribuzione di carica a simmetria piana: foglio uniformemente carico.
+
+19.03.2018
+Dinamica: lavoro ed energia.
+
+Lavoro e potenza: definizione ed unita` di misura.
+
+Energia cinetica.
+
+Forze conservative. Energia potenziale. Esempio: forza peso.
+La conservazione dell'energia meccanica.
+
+Cenni alle forze non conservative.
+
+20.03.2018
+Elettrostatica: il potenziale elettrostatico.
+
+Il potenziale elettrostatico: definizione ed unita` di misura.
+
+Principio di additivita` dei potenziali.
+
+Esempi di calcolo del potenziale.
+Distribuzione di cariche puntiformi. Esempio: potenziale prodotto da un dipolo elettrico.
+Distribuzione continua di cariche. Esempi: potenziale prodotto da una sfera uniformemente carica; potenziale prodotto da un guscio sferico uniformemente carico; potenziale prodotto da un piano di carica elettrica uniformemente carico.
+
+Il campo elettrico come gradiente del potenziale elettrostatico.
+
+22.03.2018
+Elettrostatica: campi elettrici nella materia.
+
+Conduttori. Condizione di equilibrio elettrostatico.
+Carica elettrica su conduttori carichi e conduttori posti in campo elettrico. 
+Campo elettrico in prossimita` della superficie di un conduttore carico.
+Conduttori cavi in un campo elettrico esterno. Gabbia di Faraday.
+Effetto corona e campo elettrico in prossimita` di punte.
+
+Campi elettrici negli isolanti.
+
+27.03.2018
+Elettrostatica: capacita` elettrica e condensatori.
+
+Lavoro necessario per costruire una distribuzione di cariche ed energia immagazzinata.
+
+Capacita` di un conduttore singolo. Il farad. 
+
+Definizione di condensatore e capacita` di un condensatore.
+Calcolo della capacita` di un condensatore sferico.
+Calcolo della capacita` di un condensatore piano.
+
+Lavoro per caricare un condensatore. Energia del campo elettrostatico.
+
+05.04.2018
+?Le correnti elettriche.
+    Correnti elettriche: definizione di intensita` di corrente e sue unita` di misura. 
+    Cenni ai meccanismi di conduzione nei gas, nei liquidi e nei solidi.
+
+    Il vettore densita` di corrente e la descrizione microscopica della conduzione.
+
+    Conduttori ohmici: legge di Ohm microscopica e legge di Ohm macroscopica. 
+    La resistenza elettrica e la sua unita` di misura. Interpretazione della legge di Ohm microscopica.
+
+10.04.2018
+I circuiti elettrici in corrente continua.
+    Resistori in serie e resistori in parallelo.
+    La forza elettromotrice (f.e.m.). Cenni al comportamento di f.e.m. reali.
+    La legge di Kirchhoff per le maglie. La legge di Kirchhoff per i nodi.
+    L'effetto Joule e la potenza dissipata in un resistore.
+
+12.04.2018
+Fisica dei dispositivi elettronici: semiconduttori e giunzione pn.
+    Bande di energia e classificazione di materiali: conduttori, semiconduttori e isolanti.
+    Semiconduttori intrinseci e semiconduttori drogati.
+
+    La giunzione pn.
+    Il diodo: caratteristica corrente-tensione. Soluzione di un circuito f.e.m.-resistore-diodo tramite metodo grafico (retta di carico).
+
+16.04.2018
+Fisica dei dispositivi elettronici: dispositivi MOS e porte logiche.
+
+Il transistor MOS. Discussione del comportamento di un transistor NMOS in funzione di Vgs e Vds.
+Discussione di porte logiche realizzate con NMOS e resistori di pull-up: NOT, NOR, NAND.
+Cenni ai limiti della tecnologia NMOS e ricorso alla tecnologia CMOS.
+
+17.04.2018
+Il campo magnetico.
+
+Fenomenologia delle interazioni magnetiche.
+Poli magnetici. Campo magnetico: definizione ed unita` di misura.
+
+Moto di una carica elettrica in un campo magnetico: la forza di Lorentz.
+Caso del campo magnetico costante ed uniforme. Frequenza di ciclotrone.
+Applicazioni della forza di Lorentz: spettrometro di massa, selettore di velocita`.
+
+23.04.2018
+Magnetismo: correnti e campi magnetici. La legge di Biot-Savart.
+
+Forza agente su un filo rettilineo percorso da corrente posto in un campo magnetico.
+
+Esperienza di Oersted e legge di Biot-Savart.
+Campo magnetico prodotto da un filo rettilineo percorso da corrente stazionaria; forza tra fili paralleli percorsi da corrente. 
+
+24.04.2018
+Magnetismo: applicazioni della legge di Biot-Savart. La legge di Ampere.
+
+Applicazioni della legge di Biot-Savart: campo magnetico generato da una carica puntiforme in moto; 
+campo magnetico prodotto da una spira circolare percorsa da corrente. 
+Il momento di dipolo magnetico di una spira circolare percorsa da corrente ed analogie con il momento di dipolo elettrico. Cenni alle proprieta` magnetiche dei materiali.
+
+La legge di Ampere: derivazione nel caso di fili paralleli percorsi da corrente stazionaria.
+
+03.05.2018
+Magnetismo: applicazioni della legge di Ampere. Induzione elettromagnetica.
+
+Esempio di uso della legge di Ampere per il calcolo del campo magnetico: calcolo del campo magnetico all'interno di un solenoide rettilineo.
+
+Induzione elettromagnetica: fenomenologia.
+Flusso del campo magnetico. La legge di Faraday-Lenz. Considerazioni sulla legge di Faraday-Lenz e sulla conservazione dell'energia.
+Il campo elettrico indotto come esempio di campo elettrico non conservativo.
+
+08.05.2018
+Magnetismo: autoinduttanza ed induttori.
+
+Autoinduttanza: definizione ed unita` di misura. Calcolo dell'induttanza di un solenoide rettilineo.
+Circuiti RL: discussione del comportamento a breve termine ed alla stazionarieta`.
