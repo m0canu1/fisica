@@ -1,8 +1,213 @@
-\documentclass{article}
+\documentclass[14pt]{extarticle}
 
 \usepackage{amsmath}
+\usepackage{geometry}
+\geometry{margin=.7in}
 
 \begin{document}
+
+
+Cinematica\\
+$a_c$ : accelerazione centripeta (\textbf{punta} costantemente verso il centro)\\
+$w$ : velocità angolare\\
+$r$ : raggio?
+\begin{equation*}
+    \overrightarrow{w}=\frac{\left | \overrightarrow v \right |}{r}
+    \quad\quad
+    w=\sqrt{\frac{a_c}{r}}
+\end{equation*}
+\begin{equation*}
+    v=wr
+    \quad\quad
+    v=\sqrt{a_cr}
+    \quad\quad
+    \overrightarrow{v}=\overrightarrow{w}\overrightarrow{r}
+\end{equation*}
+\begin{equation*}
+    a_c=w^2r
+    \quad\quad
+    a_c=\frac{v^2}{r}
+    \quad\quad
+    \overrightarrow{a_c}=\frac{\overrightarrow{v^2}}{r}
+\end{equation*}
+
+
+Equazione moto rettilineo uniforme (quando $\overrightarrow{F}=0$)
+\begin{equation*}
+    s=v(t-t_i)+s_i
+    \quad\quad
+    z(t)=h-v_0t
+\end{equation*}
+
+Equazione moto circolare uniforme (quando $\overrightarrow{F}\perp\overrightarrow{v}$)
+\begin{equation*}
+    raggio = \frac{mv_o}{qB}
+\end{equation*}
+
+Componenti vettori
+\begin{equation*}
+    \alpha x= \left | \overrightarrow{a} \right |cos\alpha
+\end{equation*}
+\begin{equation*}
+    \alpha y= \left | \overrightarrow{a} \right |sin\alpha
+\end{equation*}
+
+Velocità di una carica da A a B
+\begin{equation*}
+    \frac{m}{2}v^2=q(V_A-V_B)
+\end{equation*}
+
+\begin{equation*}
+    i=\frac{\epsilon_i}{R}
+    \quad\quad
+    f=\frac{w}{2\pi}
+    \quad\quad
+    i=qf
+    \quad\quad
+    i^2=\frac{v^2}{R}
+    \quad\quad
+    w=\frac{v^2}{R_{tot}}
+\end{equation*}
+
+$\overrightarrow{B}$ per far muovere la carica
+\begin{equation*}
+    m\overrightarrow{a_c}=q\overrightarrow{v}\overrightarrow{B}
+    \quad\quad
+    \overrightarrow{B}=\frac{mw^2r}{qwr}
+\end{equation*}
+
+$\overrightarrow{B}$ generato da una carica in un punto
+\begin{equation*}
+    \overrightarrow{B}=\frac{km}{k_e}\overrightarrow{v}\overrightarrow{E}
+\end{equation*}
+
+
+
+% mie
+Due cariche che interagiscono tra di loro, risentono di una forza $F$ che è proporzionale al valore delle cariche stesse ($q1$ e $q2$) e inversamente proporzionale al quadrato della distanza ($d$) tra le cariche:
+\begin{equation*}
+    \frac{q_1*q_2}{d^2}
+\end{equation*}
+\begin{center}
+    \line(1,0){250}
+\end{center}
+Forza (elettrostatica) che $q1$ sente per la presenza di $q2$:
+\begin{equation*}
+    \overrightarrow{F}_{q_1,q_2}=k_e\frac{q_1q_2}{|d^2|}\frac{\overrightarrow{d}}{|d|}
+\end{equation*}
+\begin{itemize}
+    \item attenzione al senso del vettore
+    \item siccome $q1$ sente la forza, la direzione del vettore ($d$) sarà $q_2\rightarrow q_1$ : $\overrightarrow{r}_{q_2,q_1}$
+\end{itemize}
+
+
+\begin{center}
+    \line(1,0){250}
+\end{center}
+Campo elettrico ($E$) prodotto in $q0$ da una carica puntiforme $q1$, distanti $d$
+\begin{equation*}
+    E_{q_o}=\frac{F_{q_o,q_1}}{q_0}=k_e\frac{\frac{q_oq_1}{d^2}}{q_0}=k_e\frac{q_1}{d^2}
+\end{equation*}
+
+Energia potenziale $U$ (lavoro $L$ da compiere da parte di una forza per portare una carica di prova $q$ ad una distanza $d$ dalla carica fissa $Q$)
+\begin{equation*}
+    L=U=qEd
+\end{equation*}
+
+
+Potenziale elettrico V di q
+\begin{equation*}
+    V=\frac{U}{q}
+\end{equation*}
+
+Potenziale totale in un punto $p$ generato da più cariche $q$ è la somma dei potenziali di tutte le cariche in quel punto + il potenziale all'infinito
+\begin{align*}
+    V_{tot} = k_e\frac{q_1}{d}+k_e\frac{q_2}{d}+V(\infty) \\
+    \quad\text{dove $d$ è la distanza tra le cariche ed il punto $p$}
+\end{align*}
+
+Campo generato da più di una carica
+\begin{equation*}
+    \overrightarrow{F}=\overrightarrow{F_1}+\overrightarrow{F_2} \quad\text{con il vettore campo}
+\end{equation*}
+\begin{equation*}
+    \overrightarrow{E}=\frac{\overrightarrow{E}}{q}=\frac{\overrightarrow{F_1}+\overrightarrow{F_2}}{q}=\frac{\overrightarrow{F_1}}{q}+\frac{\overrightarrow{F_2}}{q}=\overrightarrow{E_1}+\overrightarrow{E_2}
+\end{equation*}
+
+Lavoro fatto dal campo elettrico per portare una carica $Q$ da un punto A ad un punto B
+\begin{equation*}
+    L_{AB}=Q(V_A-V_B)
+\end{equation*}
+
+Angolo
+\begin{equation*}
+    tan^{-1}(\frac{y}{x})
+\end{equation*}
+
+\begin{center}
+    \line(1,0){250}
+\end{center}
+Punto in cui la forza totale è nulla = Campo elettrico è nullo
+\begin{center}
+    \line(1,0){250}
+\end{center}
+
+Quando una carica in quiete viene posta in un campo magnetico non succede proprio niente, 
+cioè non si osserva su di essa alcuna forza particolare. Ma quando la carica elettrica \textbf{si 
+muove} nel campo magnetico essa sarà interessata da una forza che si scopre è in relazione 
+col valore della carica, della sua velocità e anche della direzione in cui si muove secondo la legge:
+\begin{equation*}
+    \overrightarrow{F}=q\overrightarrow{v}\times\overrightarrow{B}=qvBsin\theta
+\end{equation*}
+
+La forza esercitata da un campo magnetico su di una carica in moto è proporzionale 
+alla carica elettrica e alla componente della sua velocità in direzione perpendicolare al campo magnetico.
+Quindi se la carica si muove nella direzione del campo non è interessata da nessuna forza 
+(prodotto cartesiano dà 0,0,0), mentre la forza esercitata dal campo sulla carica sarà massima 
+quando la particella si muove in direzione perpendicolare al campo.
+
+\begin{center}
+    \line(1,0){250}
+\end{center}
+Prodotto cartesiano
+\begin{align*}
+    a\times b=c\\
+    c_x=a_yb_z-a_zb_y\\
+    c_y=a_zb_x-a_xb_z\\
+    c_z=a_xb_y-a_yb_z
+\end{align*}
+"Regola mano destra"
+\begin{center}
+    $a \rightarrow$ indice\\
+    $b \rightarrow$ medio\\
+    $a\times b \rightarrow$ pollice
+\end{center}
+\begin{center}
+    \line(1,0){250}
+\end{center}
+
+Per calcolare il modulo del campo magnetico prodotto in un punto $p$ dal moto di una carica $q$
+\begin{enumerate}
+    \item calcolo $i$ in quel punto ($i=qf$ formule sopra)
+    \item modulo del campo magnetico $B=2km\frac{i}{r}$ (formulario prof) 
+\end{enumerate}
+
+    \begin{tabular}{l|l}
+    C & coulomb \\ \hline
+    m & metro   \\ \hline
+    s & secondo \\ \hline
+    j & joule   \\ \hline
+    W & watt    \\ \hline
+    N & newton  \\ \hline
+    V & volt    \\ \hline
+    A & ampere  \\ \hline
+    F & farad   \\ \hline
+    $\Omega$ & ohm    
+    \end{tabular}
+
+
+
+
 
 \begin{itemize}
     \item Forza elettrica: $\overrightarrow{F}=q\overrightarrow{E}$
