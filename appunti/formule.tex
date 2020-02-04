@@ -13,7 +13,7 @@ $a_c$ : accelerazione centripeta (\textbf{punta} costantemente verso il centro)\
 $w$ : velocità angolare\\
 $r$ : raggio, eventualmente da calcolare. Cioè il modulo del vettore $|\overrightarrow{r}_{AB}|$  tra le particelle $A$ e $B$
 \begin{equation*}
-    \overrightarrow{w}=\frac{\left | \overrightarrow v \right |}{r}
+    w=\frac{\left | \overrightarrow v \right |}{r}
     \quad\quad
     w=\sqrt{\frac{a_c}{r}}
 \end{equation*}
@@ -22,7 +22,7 @@ $r$ : raggio, eventualmente da calcolare. Cioè il modulo del vettore $|\overrig
     \quad\quad
     v=\sqrt{a_cr}
     \quad\quad
-    \overrightarrow{v}=\overrightarrow{w}\overrightarrow{r}
+    \overrightarrow{v}=\overrightarrow{w}\times\overrightarrow{r}
 \end{equation*}
 \begin{equation*}
     a_c=w^2r
@@ -82,7 +82,20 @@ $\overrightarrow{B}$ generato da una carica in un punto
     \overrightarrow{B}=\frac{km}{k_e}\overrightarrow{v}\overrightarrow{E}
 \end{equation*}
 
+Quando una spira circolare è percorsa da corrente, intorno al filo si crea 
+un campo magnetico. Nel centro della spira, l'intensità del campo si calcola con:
+\begin{equation*}
+    B=k_m\frac{\pi i}{r}
+\end{equation*}
 
+la corrente $i$ si trova con le formule sopra
+\begin{equation*}
+    i = qf \rightarrow i=q\frac{w}{2\pi}
+\end{equation*}
+*se ci sono più cariche che ruotano, si sommano le correnti generate da ognuna
+\begin{center}
+    \line(1,0){250}
+\end{center}
 
 % mie
 Due cariche che interagiscono tra di loro, risentono di una forza $F$ che è proporzionale al valore delle cariche stesse ($q1$ e $q2$) e inversamente proporzionale al quadrato della distanza ($d$) tra le cariche:
@@ -94,11 +107,11 @@ Due cariche che interagiscono tra di loro, risentono di una forza $F$ che è pro
 \end{center}
 Forza (elettrostatica) che $q1$ sente per la presenza di $q2$:
 \begin{equation*}
-    \overrightarrow{F}_{q_1,q_2}=k_e\frac{q_1q_2}{|d^2|}\frac{\overrightarrow{d}}{|d|}
+    \overrightarrow{F}_{q_1,q_2}=k_e\frac{q_1q_2}{|\overrightarrow{r}|^2}\frac{\overrightarrow{r}}{|r|}
 \end{equation*}
 \begin{itemize}
     \item attenzione al senso del vettore
-    \item siccome $q1$ sente la forza, la direzione del vettore ($d$) sarà $q_2\rightarrow q_1$ : $\overrightarrow{r}_{q_2,q_1}$
+    \item siccome $q1$ sente la forza, la direzione del vettore ($\overrightarrow{r}$) sarà $q_2\rightarrow q_1$ : $\overrightarrow{r}_{q_2,q_1}$
 \end{itemize}
 
 
@@ -132,7 +145,10 @@ Campo generato da più di una carica
     \overrightarrow{F}=\overrightarrow{F_1}+\overrightarrow{F_2} \quad\text{con il vettore campo}
 \end{equation*}
 \begin{equation*}
-    \overrightarrow{E}=\frac{\overrightarrow{E}}{q}=\frac{\overrightarrow{F_1}+\overrightarrow{F_2}}{q}=\frac{\overrightarrow{F_1}}{q}+\frac{\overrightarrow{F_2}}{q}=\overrightarrow{E_1}+\overrightarrow{E_2}
+    \overrightarrow{F}=q\overrightarrow{E}
+\end{equation*}
+\begin{equation*}
+    \overrightarrow{E}=\frac{\overrightarrow{F}}{q}=\frac{\overrightarrow{F_1}+\overrightarrow{F_2}}{q}=\frac{\overrightarrow{F_1}}{q}+\frac{\overrightarrow{F_2}}{q}=\overrightarrow{E_1}+\overrightarrow{E_2}
 \end{equation*}
 
 Lavoro fatto dal campo elettrico per portare una carica $Q$ da un punto A ad un punto B
@@ -194,6 +210,8 @@ Se:
     \item moto circolare: moto assimilabile a spira circolare percorsa da corrente
     \item moto rettilineo: moto assimilabile a spira dritta
 \end{itemize}
+
+Forza di Lorentz è la forza prodotta dal campo magnetico
 
     \begin{tabular}{l|l}
     C & coulomb \\ \hline
